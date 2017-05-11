@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Solution {
-	
-	
+
+
 
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class Solution {
 
 		for(int i = 0; i < n; i++)
 			arr[i] = sc.nextInt();
-		
+
 		while(true){
 			int i = n - 1;
 			while(i > 0 && arr[i - 1] > arr[i])
@@ -39,6 +39,8 @@ public class Solution {
 			for(int k = 0; k < n; k++)
 				System.out.print(arr[k]+" ");
 			System.out.println();
-		}	
-	}	
+
+			// This is only for testing purposes! okay!!
+		}
+	}
 }
